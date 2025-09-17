@@ -1,0 +1,83 @@
+name: animate
+description: "A new Flutter project."
+publish_to: 'none'
+version: 0.1.0
+
+environment:
+  sdk: ^3.9.2
+
+dependencies:
+  flutter:
+    sdk: flutter
+  expressive_loading_indicator: ^0.0.1
+  material_new_shapes: ^1.0.0
+  syncfusion_flutter_charts: ^31.1.20
+  graphql_flutter: ^5.2.1
+  flutter_svg: ^2.2.1
+  url_launcher: ^6.3.2
+  getwidget: ^7.0.0
+  http: ^1.5.0
+  flutter_native_splash: ^2.4.6
+  icons_launcher: ^3.0.2
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^5.0.0
+
+flutter:
+  uses-material-design: true
+
+
+  assets:
+    - assets/
+    - assets/icon/
+
+
+flutter_native_splash:
+  color_dark: "#000000"
+  android_12:
+    image: assets/icon/icon.png
+    icon_background_color: "#ffffff"
+    image_dark: assets/icon/icon.png
+    icon_background_color_dark: "#000000"
+  color: "#ffffff"
+  image: assets/icon/icon.png
+  image_dark: assets/icon/icon.png
+  android: true
+  ios: true
+  web: true
+  
+
+
+icons_launcher:
+  image_path: "assets/icon/icon.png"
+  platforms:
+    android:
+      enable: true
+      image_path: "assets/icon/icon.png"
+      notification_image: "assets/icon/icon.png"
+      # adaptive_background_color: '#ffffff'
+      adaptive_background_image: "assets/icon/icon.png"
+      adaptive_foreground_image: "assets/icon/icon.png"
+      adaptive_round_image: "assets/icon/icon.png"
+      adaptive_monochrome_image: "assets/icon/icon.png"
+    ios:
+      enable: true
+      image_path: "assets/icon/icon.png"
+      # For iOS 18+ (support dark and tinted)
+      dark_path: "assets/icon/icon.png"
+      tinted_path: "assets/icon/icon.png"
+    web:
+      enable: true
+      image_path: "assets/icon/icon.png"
+      favicon_path: "assets/icon/icon.png"
+    macos:
+      enable: true
+      image_path: "assets/icon/icon.png"
+    windows:
+      enable: true
+      image_path: "assets/icon/icon.png"
+    linux:
+      enable: true
+      image_path: "assets/icon/icon.png"
