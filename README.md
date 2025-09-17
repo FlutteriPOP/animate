@@ -1,3 +1,2 @@
-# animate
+# Animate
 
-A new Flutter project.
